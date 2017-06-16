@@ -1,16 +1,85 @@
+*{
+	/*background-color: #5F9EA0;*/
+	/*border:1px solid black;*/
+}
 
+.body{
+	/*background-color: #5F9EA0 !important;*/
+}
+
+.container{
+}
+
+.header{
+	/*width: 80vw;*/
+	display: inline-flex;
+	justify-content: flex-end;
+	align-content: baseline;
+	margin:auto;
+	border:1px solid black;
+}
 
 .nav{
-	width: 100vw;
+	/*width: 80vw;*/
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 	align-content: baseline;
 	background-color: ;
 	border-bottom: 1 solid black;
+	padding: 6rem;
+	border:1px solid black;
 }
+
+.nav h4{
+	border: 1px solid black;
+	border:1px solid black;
+}
+
+.btn{
+	margin: 3rem;
+	padding-right: 10rem;
+	border:1px solid black;
+}
+
+.nav-logo{
+	width: 20vw;
+}
+
+.nav-bar{
+	/*width: 60vw;*/
+	display: inline-flex;
+	justify-content: flex-end;
+	align-content: baseline;
+
+}
+
 
 .about{
-	border-bottom: 1 solid black;
+	margin:auto;
+	width: 50vw;
+	padding-bottom: 3rem;
+	border:1px solid black;
 }
 
+.portfolio .title{
+	width: 60vw;
+	margin:auto;
+	text-align: center;
+	border-top: 1px solid black;
+	padding-bottom: 3rem;
+	padding-top: 3rem;
+	border-bottom: 1px solid black;
+	border:1px solid black;
+}
+
+.portfolio{
+	width: 60vw;
+	margin: auto;
+	border:1px solid black;
+}
+
+.projects{
+	padding-top: 3rem;
+	border:1px solid black;
+}
 
