@@ -1,0 +1,16 @@
+
+
+.nav{
+	width: 100vw;
+	display: flex;
+	justify-content: flex-end;
+	align-content: baseline;
+	background-color: ;
+	border-bottom: 1 solid black;
+}
+
+.about{
+	border-bottom: 1 solid black;
+}
+
+
