@@ -1,85 +1,134 @@
 *{
 	/*background-color: #5F9EA0;*/
 	/*border:1px solid black;*/
+	font-family: 'Play', sans-serif;
 }
 
-.body{
-	/*background-color: #5F9EA0 !important;*/
-}
+body{
+	background-color: #808080 !important;
+	border:1px solid black;
 
-.container{
 }
 
 .header{
-	/*width: 80vw;*/
-	display: inline-flex;
+	display: flex;
+	width: 80vw;
 	justify-content: flex-end;
-	align-content: baseline;
-	margin:auto;
-	border:1px solid black;
+	margin: 2rem;
+	margin-bottom: 3rem;
 }
 
 .nav{
-	/*width: 80vw;*/
-	display: flex;
-	justify-content: space-between;
 	align-content: baseline;
-	background-color: ;
-	border-bottom: 1 solid black;
 	padding: 6rem;
-	border:1px solid black;
+	border:1px solid black;*/
 }
 
 .nav h4{
-	border: 1px solid black;
 	border:1px solid black;
 }
 
-.btn{
-	margin: 3rem;
-	padding-right: 10rem;
+.nav-btn{
+	margin: .5rem;
 	border:1px solid black;
+	padding:.5rem;
+	border-radius: 20px;
+	background-color: #778899;
 }
 
 .nav-logo{
 	width: 20vw;
+	padding-left: 10rem;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 3rem;
+	font-weight: bold;
 }
 
 .nav-bar{
-	/*width: 60vw;*/
+	width: 60vw;
+	padding-right: 10rem;
 	display: inline-flex;
 	justify-content: flex-end;
-	align-content: baseline;
-
 }
 
+.second-body{
+	background-color: #F5F5F5;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
 
 .about{
+	padding: 2rem;
 	margin:auto;
-	width: 50vw;
+	width: 80vw;
+	padding-top: 5rem;
 	padding-bottom: 3rem;
-	border:1px solid black;
+	margin-bottom: 3rem;
+	font-size: 1.7rem;
+	background-color: #A9A9A9;
+	border-radius: 30px;
 }
 
-.portfolio .title{
-	width: 60vw;
+.about-text{
+	padding: 2rem;
+	margin:auto;
+	width: 50vw;
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+	margin-bottom: 3rem;
+	font-size: 1.7rem;
+	background-color: #A9A9A9;
+	border-radius: 30px;
+}
+
+p span{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.exp{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+
+
+.portfolio{
+	width: 80vw;
 	margin:auto;
 	text-align: center;
 	border-top: 1px solid black;
 	padding-bottom: 3rem;
 	padding-top: 3rem;
-	border-bottom: 1px solid black;
-	border:1px solid black;
-}
-
-.portfolio{
-	width: 60vw;
-	margin: auto;
-	border:1px solid black;
+	background-color: #A9A9A9;
+	border-radius: 30px;
+	margin-bottom: 3rem;
 }
 
 .projects{
-	padding-top: 3rem;
-	border:1px solid black;
+	padding: 3rem;
+	background-color: #A9A9A9;
+	border-radius: 30px;
 }
 
+.contact{
+	width: 80vw;
+	margin:auto;
+	text-align: center;
+	border-top: 1px solid black;
+	padding-top: 3rem;
+	background-color: #A9A9A9;
+	border-radius: 30px;
+	margin-bottom: 3rem;
+	padding-bottom: 3rem;
+}
+
+.bigicon {
+        font-size: 35px;
+        color: #36A0FF;
+    }
+
+.footer{
+	/*margin-top: 3rem;*/
+	padding-bottom: 2rem;
+}
